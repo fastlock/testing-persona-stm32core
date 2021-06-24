@@ -3,7 +3,7 @@
     {
       "name": "SmartMe.IO",
       "websiteURL": "https://smartme.io",
-      "maintainer": "smartme.io",
+      "maintainer": "Marco Manfrè 4 smartme.io",
       "email": "info@smartme.io",
       "help": {
         "online": "http://www.stm32duino.com/"
@@ -16,7 +16,7 @@
           "category": "Contributed",
           "url": "https://github.com/fastlock/testing-persona-stm32core/raw/main/2.0.0.tar.gz",
           "archiveFileName": "2.0.0.tar.bz2",
-          "checksum": "SHA-256:dfc9b5198ff1468a339fde1edb58c57670557577857ec8b8b4292446c6388b50 ",
+          "checksum": "SHA-256:dfc9b5198ff1468a339fde1edb58c57670557577857ec8b8b4292446c6388b50",
           "size": "49298124 ",
           "boards": [
             {
