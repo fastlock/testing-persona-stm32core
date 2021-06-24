@@ -14,7 +14,7 @@
           "architecture": "stm32",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://github.com/fastlock/testing-persona-stm32core/2.0.0.tar.bz2",
+          "url": "https://github.com/fastlock/testing-persona-stm32core/blob/main/2.0.0.tar.gz",
           "archiveFileName": "2.0.0.tar.bz2",
           "checksum": "SHA-256:dfc9b5198ff1468a339fde1edb58c57670557577857ec8b8b4292446c6388b50 ",
           "size": "49298124 ",
