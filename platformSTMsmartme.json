@@ -1,0 +1,241 @@
+{
+  "packages": [
+    {
+      "name": "SmartMe.IO",
+      "websiteURL": "https://smartme.io",
+      "maintainer": "smartme.io",
+      "email": "info@smartme.io",
+      "help": {
+        "online": "http://www.stm32duino.com/"
+      },
+      "platforms": [
+        {
+          "name": "Arancino V boards",
+          "architecture": "stm32",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/fastlock/testing-persona-stm32core/raw/main/2.0.0.tar.gz",
+          "archiveFileName": "2.0.0.tar.bz2",
+          "checksum": "SHA-256:dfc9b5198ff1468a339fde1edb58c57670557577857ec8b8b4292446c6388b50",
+          "size": "49298124 ",
+          "boards": [
+            {
+              "name": "Arancino V12"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "STMicroelectronics",
+              "name": "xpack-arm-none-eabi-gcc",
+              "version": "9.3.1-1.3"
+            },
+            {
+              "packager": "STMicroelectronics",
+              "name": "STM32Tools",
+              "version": "2.0.0"
+            },
+            {
+              "packager": "STMicroelectronics",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "xpack-arm-none-eabi-gcc",
+          "version": "9.3.1-1.3",
+          "systems": [
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-arm.tar.gz",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-arm.tar.gz",
+              "checksum": "SHA-256:0e6720296f291141cd757d90e6bf60867a1232de9abc52b0cde28af12eeb94f2",
+              "size": "147111321"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-arm64.tar.gz",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-arm64.tar.gz",
+              "checksum": "SHA-256:9a9e96b9ac3634d7632d35aa0d8138f8468d4f3f4d752374a95420ff7c8e4476",
+              "size": "150584175"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-win32-x32.zip",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-9.3.1-1.3-win32-x32.zip",
+              "checksum": "SHA-256:7432cfff045dc421d2ba177c3777ec1e82d4febe5f5f51fb2e90ff07d27cd466",
+              "size": "148593506"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-darwin-x64.tar.gz",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-9.3.1-1.3-darwin-x64.tar.gz",
+              "checksum": "SHA-256:f22f0d49c27f844dcfe629a6a33878d767b6945acd7508d9578b20b17b106f4c",
+              "size": "148641073"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-x64.tar.gz",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-x64.tar.gz",
+              "checksum": "SHA-256:9045d261b000d921887fc801427542eed2df1616f63a2969a2640f8be2593686",
+              "size": "151422620"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-x32.tar.gz",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-x32.tar.gz",
+              "checksum": "SHA-256:1950c7b0b4e35bacec32450158ec192ac469189a5fb27c2fd7c01e9603e50e64",
+              "size": "154309058"
+            }
+          ]
+        },
+        {
+          "name": "CMSIS",
+          "version": "5.7.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+              "archiveFileName": "CMSIS-5.7.0.tar.bz2",
+              "checksum": "SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+              "size": "26151901"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+              "archiveFileName": "CMSIS-5.7.0.tar.bz2",
+              "checksum": "SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+              "size": "26151901"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+              "archiveFileName": "CMSIS-5.7.0.tar.bz2",
+              "checksum": "SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+              "size": "26151901"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+              "archiveFileName": "CMSIS-5.7.0.tar.bz2",
+              "checksum": "SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+              "size": "26151901"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+              "archiveFileName": "CMSIS-5.7.0.tar.bz2",
+              "checksum": "SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+              "size": "26151901"
+            },
+            {
+              "host": "all",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+              "archiveFileName": "CMSIS-5.7.0.tar.bz2",
+              "checksum": "SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+              "size": "26151901"
+            }
+          ]
+        },
+        {
+          "name": "STM32Tools",
+          "version": "2.0.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/stm32duino/Arduino_Tools/releases/download/2.0.0/STM32Tools-2.0.0-windows.tar.bz2",
+              "archiveFileName": "STM32Tools-2.0.0-windows.tar.bz2",
+              "checksum": "SHA-256:6316ffd1667344952bc5e16ff60783f9b4211d1eb54fc0d0c28e836b1490b717",
+              "size": "2486087"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/stm32duino/Arduino_Tools/releases/download/2.0.0/STM32Tools-2.0.0-mac.tar.bz2",
+              "archiveFileName": "STM32Tools-2.0.0-mac.tar.bz2",
+              "checksum": "SHA-256:2612be87206d2ba6f7cf797c194dbc070139defc884b881c1957a8d148c2114c",
+              "size": "486398"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/Arduino_Tools/releases/download/2.0.0/STM32Tools-2.0.0-linux.tar.bz2",
+              "archiveFileName": "STM32Tools-2.0.0-linux.tar.bz2",
+              "checksum": "SHA-256:850186554df1d56f5f5336d6310551b734b2ff97c92677ca0ece11f134b72d0f",
+              "size": "479795"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/Arduino_Tools/releases/download/2.0.0/STM32Tools-2.0.0-linux.tar.bz2",
+              "archiveFileName": "STM32Tools-2.0.0-linux.tar.bz2",
+              "checksum": "SHA-256:850186554df1d56f5f5336d6310551b734b2ff97c92677ca0ece11f134b72d0f",
+              "size": "479795"
+            }
+          ]
+        },
+        {
+          "name": "arduinoSTM32load",
+          "version": "2.3.0",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "url": "http://download.smartme.io/arduinoSTM32load/2.3.0/arduinoSTM32load-2.3.0-darwin_amd64.tar.bz2",
+              "archiveFileName": "arduinoSTM32load-2.3.0-darwin_amd64.tar.bz2",
+              "size": "1378555",
+              "checksum": "SHA-256:8e5f5cfb6f3108c075bdd62cfff13b45ca97fb9ea32086f7632531d69a610652"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://download.smartme.io/arduinoSTM32load/2.3.0/arduinoSTM32load-2.3.0-linux_arm.tar.bz2",
+              "archiveFileName": "arduinoSTM32load-2.3.0-linux_arm.tar.bz2",
+              "size": "1334474",
+              "checksum": "SHA-256:ac5141d351f21fc90b47b56299bd3b9d51bb0b22e69adc36ea72f5921880e187"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "http://download.smartme.io/arduinoSTM32load/2.3.0/arduinoSTM32load-2.3.0-linux_arm64.tar.bz2",
+              "archiveFileName": "arduinoSTM32load-2.3.0-linux_arm64.tar.bz2",
+              "size": "1317527",
+              "checksum": "SHA-256:c35b27ab525cec05a67b865f5d40916db1809e069c47d72a52a95e327bbf1050"
+            },
+            {
+              "host": "mips-linux-gnu",
+              "url": "http://download.smartme.io/arduinoSTM32load/2.3.0/arduinoSTM32load-2.3.0-linux_mips.tar.bz2",
+              "archiveFileName": "arduinoSTM32load-2.3.0-linux_mips.tar.bz2",
+              "size": "1277674",
+              "checksum": "SHA-256:5108141e7765b7ad3120bb0b6bd4302492fe67982deb1f48261fcf5a8fbaa9ba"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://download.smartme.io/arduinoSTM32load/2.3.0/arduinoSTM32load-2.3.0-linux_amd64.tar.bz2",
+              "archiveFileName": "arduinoSTM32load-2.3.0-linux_amd64.tar.bz2",
+              "size": "1402242",
+              "checksum": "SHA-256:1690dac823a7823eada7c2a0679f60825f03321350266d8bc7ad1bf33bb94bb2"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "url": "http://download.smartme.io/arduinoSTM32load/2.3.0/arduinoSTM32load-2.3.0-linux_386.tar.bz2",
+              "archiveFileName": "arduinoSTM32load-2.3.0-linux_386.tar.bz2",
+              "size": "1395880",
+              "checksum": "SHA-256:2cfaecaa88b1e8d477819a6096eb52f44efa987b0d0777ae76b89ba37345384a"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "http://download.smartme.io/arduinoSTM32load/2.3.0/arduinoSTM32load-2.3.0-windows_386.tar.bz2",
+              "archiveFileName": "arduinoSTM32load-2.3.0-windows_386.tar.bz2",
+              "size": "1439595",
+              "checksum": "SHA-256:f2347a740ac5abdfd5bfa192699aa43aed13f0f70e8e2470b80fe818a1c772ac"
+            },
+            {
+              "host": "i686-w64-mingw32",
+              "url": "http://download.smartme.io/arduinoSTM32load/2.3.0/arduinoSTM32load-2.3.0-windows_amd64.tar.bz2",
+              "archiveFileName": "arduinoSTM32load-2.3.0-windows_amd64.tar.bz2",
+              "size": "1445832",
+              "checksum": "SHA-256:b171713bc89db9e5e4979d8561978d72ca1741c67f9cd63832c6f21509c34732"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
