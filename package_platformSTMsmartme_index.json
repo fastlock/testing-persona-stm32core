@@ -14,10 +14,10 @@
           "architecture": "stm32",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://github.com/fastlock/testing-persona-stm32core/raw/main/2.0.0.tar.gz",
+          "url": "https://github.com/fastlock/testing-persona-stm32core/raw/main/2.0.0.tar.bz2",
           "archiveFileName": "2.0.0.tar.bz2",
-          "checksum": "SHA-256:dfc9b5198ff1468a339fde1edb58c57670557577857ec8b8b4292446c6388b50",
-          "size": "49298124 ",
+          "checksum": "SHA-256:3dc5b5c2824da0a93dc812dadcb2a5763b7e020837975c0906d705639b7202f6",
+          "size": "37453763",
           "boards": [
             {
               "name": "Arancino V12"
