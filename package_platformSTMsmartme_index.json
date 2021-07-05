@@ -38,6 +38,11 @@
               "packager": "SmartMe.IO",
               "name": "CMSIS",
               "version": "5.7.0"
+            },
+            {
+              "packager": "SmartMe.IO",
+              "name": "arduinoSTM32load",
+              "version": "2.3.0"
             }
           ]
         }
