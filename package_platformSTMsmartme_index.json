@@ -12,7 +12,7 @@
         {
           "name": "Arancino V boards",
           "architecture": "stm32",
-          "version": "1.0.0",
+          "version": "2.0.0",
           "category": "Contributed",
           "url": "https://github.com/fastlock/testing-persona-stm32core/raw/main/2.0.0.tar.bz2",
           "archiveFileName": "2.0.0.tar.bz2",
@@ -25,17 +25,17 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "STMicroelectronics",
+              "packager": "SmartMe.IO",
               "name": "xpack-arm-none-eabi-gcc",
               "version": "9.3.1-1.3"
             },
             {
-              "packager": "STMicroelectronics",
+              "packager": "SmartMe.IO",
               "name": "STM32Tools",
               "version": "2.0.0"
             },
             {
-              "packager": "STMicroelectronics",
+              "packager": "SmartMe.IO",
               "name": "CMSIS",
               "version": "5.7.0"
             }
