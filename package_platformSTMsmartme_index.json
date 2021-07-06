@@ -16,7 +16,7 @@
           "category": "Contributed",
           "url": "https://github.com/fastlock/testing-persona-stm32core/raw/main/2.0.0.tar.bz2",
           "archiveFileName": "2.0.0.tar.bz2",
-          "checksum": "SHA-256:ff9fced646f8cf49348404808f2937f7ade8a24a1d2728e5f316462762679446",
+          "checksum": "SHA-256:daebdc098a47cb368c72267f58cbc1f97f0b7f0ecb86248547889afba1c084ac",
           "size": "37453763",
           "boards": [
             {
