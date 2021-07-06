@@ -247,6 +247,7 @@
         },
         {
     "name": "dfu-util",
+    "version": "0.9.0-arancino5",
     "systems": [{
             "archiveFileName": "dfu-util-0.9.0-arancino5-osx.tar.bz2",
             "checksum": "SHA-256:36793d63e2efbe36bdc156af916c248aa72482ce9fdc3a9063679dc373ba60ff",
@@ -289,8 +290,8 @@
             "size": "142235",
             "url": "http://download.smartme.io/dfu-util/0.9.0-arancino5/dfu-util-0.9.0-arancino5-windows.tar.bz2"
         }
-    ],
-    "version": "0.9.0-arancino5"
+    ]
+    
 }
 
       ]
