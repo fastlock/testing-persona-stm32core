@@ -1,2 +1,3 @@
-# testing-persona-stm32core
-a simple test where I hope to make work the json file for do some magic and download my custom stm32 core.
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d93c03838d75d2f378e1564eb8e940746ba70867ad06d74364430eff778e9ef
+size 135
