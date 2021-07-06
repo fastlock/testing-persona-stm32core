@@ -43,6 +43,11 @@
               "packager": "SmartMe.IO",
               "name": "arduinoSTM32load",
               "version": "2.3.0"
+            },
+	    {
+              "packager": "SmartMe.IO",
+              "name": "dfu-util",
+              "version": "0.9.0"
             }
           ]
         }
@@ -239,7 +244,55 @@
               "checksum": "SHA-256:b171713bc89db9e5e4979d8561978d72ca1741c67f9cd63832c6f21509c34732"
             }
           ]
+        },
+        {
+    "name": "dfu-util",
+    "systems": [{
+            "archiveFileName": "dfu-util-0.9.0-arancino5-osx.tar.bz2",
+            "checksum": "SHA-256:36793d63e2efbe36bdc156af916c248aa72482ce9fdc3a9063679dc373ba60ff",
+            "host": "i386-apple-darwin11",
+            "size": "72465",
+            "url": "http://download.smartme.io/dfu-util/0.9.0-arancino5/dfu-util-0.9.0-arancino5-osx.tar.bz2"
+        },
+        {
+            "archiveFileName": "dfu-util-0.9.0-arancino5-arm.tar.bz2",
+            "checksum": "SHA-256:79394a2a2566af8e5d4ed6f6ea16ddd43ef09dc89febabe21ab7b6bea898d09c",
+            "host": "arm-linux-gnueabihf",
+            "size": "224644",
+            "url": "http://download.smartme.io/dfu-util/0.9.0-arancino5/dfu-util-0.9.0-arancino5-arm.tar.bz2"
+        },
+        {
+            "archiveFileName": "dfu-util-0.9.0-arancino5-arm64.tar.bz2",
+            "checksum": "SHA-256:728d0135acb93c5bc70ff84ae9b7fe983d1c9e27464b946fcbde562b33f1250f",
+            "host": "aarch64-linux-gnu",
+            "size": "231819",
+            "url": "http://download.smartme.io/dfu-util/0.9.0-arancino5/dfu-util-0.9.0-arancino5-arm64.tar.bz2"
+        },
+        {
+            "archiveFileName": "dfu-util-0.9.0-arancino5-linux64.tar.bz2",
+            "checksum": "SHA-256:de1cb7a155455a32221f76c456caf17bf77ca7da8f9af03480fb935aa97d77a9",
+            "host": "x86_64-linux-gnu",
+            "size": "71707",
+            "url": "http://download.smartme.io/dfu-util/0.9.0-arancino5/dfu-util-0.9.0-arancino5-linux64.tar.bz2"
+        },
+        {
+            "archiveFileName": "dfu-util-0.9.0-arancino5-linux32.tar.bz2",
+            "checksum": "SHA-256:4f9f9b8f6cd2e9fc83ca2e330bcb33fae2da3ca6c1fd7b81f2c65a03220aff7c",
+            "host": "i686-linux-gnu",
+            "size": "71716",
+            "url": "http://download.smartme.io/dfu-util/0.9.0-arancino5/dfu-util-0.9.0-arancino5-linux32.tar.bz2"
+        },
+        {
+            "archiveFileName": "dfu-util-0.9.0-arancino5-windows.tar.bz2",
+            "checksum": "SHA-256:9238a21dc2786227a1372e759fd584210b56a0eb429f910ac92fdb94d6c73886",
+            "host": "i686-mingw32",
+            "size": "142235",
+            "url": "http://download.smartme.io/dfu-util/0.9.0-arancino5/dfu-util-0.9.0-arancino5-windows.tar.bz2"
         }
+    ],
+    "version": "0.9.0-arancino5"
+}
+
       ]
     }
   ]
